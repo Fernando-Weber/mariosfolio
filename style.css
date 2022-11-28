@@ -165,7 +165,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/banner.jpg") no-repeat center;
+    background: url("images/back.jpg") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -274,7 +274,7 @@ section .title::after{
 .services .title::after,
 .teams .title::after{
     background: #111;
-    content: "O que eu faço";
+    content: "O que faço";
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
@@ -308,10 +308,10 @@ section .title::after{
     margin: 10px 0 7px 0;
 }
 
-/* skills section styling */
+/* skills section style */
 
 .skills .title::after{
-    content: "O que eu sei";
+    content: "O que domino";
 }
 .skills .skills-content .column{
     width: calc(50% - 30px);
@@ -380,12 +380,12 @@ section .title::after{
     width: 40%;
 }
 .skills-content .right .wordpress::before{
-    width: 70%;
+    width: 80%;
 }
 
 /* teams section styling */
 .teams .title::after{
-    content: "Meu Pessoal";
+    content: "Team Maiomb";
 }
 .teams .carousel .card{
     background: #222;
@@ -446,7 +446,7 @@ section .title::after{
     background: #0c7feb!important;
 }
 
-/* contact section styling */
+/* contact section style */
 .contact .title::after{
     content: "Contacte-me";
 }
@@ -541,7 +541,7 @@ section .title::after{
   color: #0c7feb;
   background: none;
 }
-/* footer section styling */
+/* footer section style */
 footer{
     background: #111;
     padding: 15px 23px;
