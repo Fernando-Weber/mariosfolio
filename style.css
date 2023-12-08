@@ -367,6 +367,10 @@ section .title::after{
     top: 0;
     background: #0c7feb;
 }
+
+.skills-content .right .wordpress::before{
+    width: 80%;
+}
 .skills-content .right .html::before{
     width: 70%;
 }
@@ -374,14 +378,15 @@ section .title::after{
     width: 60%;
 }
 .skills-content .right .js::before{
+    width: 45%;
+}
+.skills-content .right .php::before{
     width: 40%;
 }
 .skills-content .right .net::before{
     width: 40%;
 }
-.skills-content .right .wordpress::before{
-    width: 80%;
-}
+
 
 /* teams section styling */
 .teams .title::after{
